@@ -1,0 +1,41 @@
+.wrapper {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.wrapper div {
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.one {
+    width: 30px;
+}
+
+.two {
+    width: 20px;
+}
+
+.three {
+    width: 25px;
+}
+
+.wrapper:hover div {
+    width: 30px;
+}
+
+.get-started {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px hsla(0, 0%, 100%, 0.4);
+    transition: 0.5s ease;
+}
+.get-started:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
